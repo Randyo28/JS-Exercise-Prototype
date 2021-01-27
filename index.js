@@ -110,10 +110,14 @@ function Airplane(name) {
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. 
-    2. 
-    3. 
-    4. 
+
+    1. "this" keyword is defaulted to being window binded so when used, it shows everything being used in the window browser.
+
+    2. In Implicit Binding the "this" keyword is used on objects with methods and it looks to the left of the dot and is what "this" referes too.
+
+    3. In Explicit Binding a function is being invoked with either .call, .apply, or .bind with the object as a argument. "This" will be what your argument inside those methods is.
+
+    4. In New Binding the "this" keyword is pointing to the new object invoked from a costructor function.
   */
   
   
